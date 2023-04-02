@@ -1,4 +1,4 @@
-available_text_models: ["gpt-3.5-turbo", "gpt-4", "text-davinci-003"]
+available_text_models: [ "gpt-4", "gpt-3.5-turbo", "text-davinci-003"]
 
 info:
   gpt-3.5-turbo:
@@ -10,8 +10,8 @@ info:
     price_per_1000_output_tokens: 0.002
 
     scores:
-      Smart: 3
-      Fast: 5
+      Smart: 5
+      Fast: 4
       Cheap: 5
 
   gpt-4:
@@ -24,7 +24,7 @@ info:
 
     scores:
       Smart: 5
-      Fast: 2
+      Fast: 3
       Cheap: 2
 
   text-davinci-003:

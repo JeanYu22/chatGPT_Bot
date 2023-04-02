@@ -17,5 +17,6 @@ WORKDIR /code
 
 RUN pip3 install -r requirements.txt
 EXPOSE 8081
+EXPOSE 27017
 
 CMD ["bash"]
